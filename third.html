@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/logo.jpg">
+    <title>Third Year</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Aboreto:regular" rel="stylesheet" />
+</head>
+<body>
+    <div id="preloader"></div>
+    <header>
+        <div class="header">
+            <a href="index.html" style="text-decoration: none;"><h4 style="text-align: center; color: white; padding-top: 15px;">COURSE<span style="color: rgba(0, 255, 0, 0.637);
+                ">HUB</span></h4></a>
+        </div>
+    </header>
+    <download>
+        <div id="dwnld">
+            <div class="dl pt-4 pb-2 col-6" style="text-align: center; color: white; float: left;">
+                <h4>Download our app</h4>
+            </div>
+            <div class="dr col-6 pt-4" style="float: left; text-align: center;">
+                <div class="x col-4" style="float: left;">
+                    <a href="https://drive.google.com/file/d/1KBVX-x0dVIAsXq8uiaYPipWwT3AVmJI3/view?usp=share_link" class="btn btn-success">DOWNLOAD</a>
+                </div>
+                <div class="x col-2"style="float:right;">
+                    <button onclick="closef()" style="color: white; background-color: black;" id="x">x</button>
+                </div>
+            </div>
+        </div>
+    </download>
+    <script>
+        function closef() {
+        var x = document.getElementById("dwnld");
+        x.style.display = 'none';
+
+   }
+    </script>
+    
+    <div class="welcome">
+        <img src="img/second.jpg" width="100%" style="object-fit: cover; height: 100vh;">
+        <div class="text pt-3 pb-2">
+            <h1>THIRD <span style="color: greenyellow;">YEAR</span></h1>
+        </div>
+    </div>
+    
+    <div class="courses pt-3 pb-5">
+        <center><h3 style="color: greenyellow; background-color: rgba(0, 0, 0, 0.644); padding-top: 10px;padding-bottom: 10px;">COURSES</h3></center>
+        <div class="container">
+            <div class="row">
+                <div class="box col-12 col-md-6 p-4">
+                    <center><img src="img/python.png" width="100px" height="100px" style="border-radius: 0.2cm;"></center>
+                    <h6 style="text-align: center; margin-top: 20px;"><b>PYTHON PROGRAMMING</b></h6>
+                    <center><a href="python.html" class="btn btn-success">Go To Course</a></center>
+                </div>
+                <div class="box col-12 col-md-6 p-4">
+                    <center><img src="img/iot.png" width="100px" height="100px" style="border-radius: 0.2cm;"></center>
+                    <h6 style="text-align: center; margin-top: 20px;"><b>INTERNET OF THINGS</b></h6>
+                    <center><a href="iot.html" class="btn btn-success">Go To Course</a></center> 
+                </div>
+                <div class="box col-12 col-md-6 p-4">
+                    <center><img src="img/software.png" width="100px" height="100px" style="border-radius: 0.2cm;"></center>
+                    <h6 style="text-align: center; margin-top: 20px;"><b>SOFTWARE ENGINEERING</b></h6>
+                    <center><a href="https://alison.com/courses/diploma-in-software-project-management/content#event=login" class="btn btn-success">Go To Course</a></center>
+                </div>
+                <div class="box col-12 col-md-6 p-4">
+                    <center><img src="img/cloud.png" width="100px" height="100px" style="border-radius: 0.2cm;"></center>
+                    <h6 style="text-align: center; margin-top: 20px;"><b>CLOUD COMPUTING</b></h6>
+                    <center><a href="https://www.mygreatlearning.com/academy/learn-for-free/courses/cloud-foundations?utm_source=share_with_friends&gl_source=share_with_friends" class="btn btn-success">Go To Course</a></center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!--wait time-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qN3wfuPYTI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen hidden></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qN3wfuPYTI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen hidden></iframe>
+       <!--Wait time ends-->
+
+        <!--FOoter-->
+        <div class="footer p-4">
+            <center><a href="index.html" style="text-decoration: none; color: yellowgreen; text-align: center; font-size: 10pt;">Home-Page</a></center>
+            <a href="index.html" style="text-decoration: none;"><h5 style="color: white; text-align: center;">© Coursehub</h5></a>
+        </div>
+        <!--footer ends-->
+        <script>
+            var loader = document.getElementById("preloader");
+    
+            window.addEventListener("load",function(){
+                loader.style.display = "none";
+            })
+        </script>
+</body>
+</html>

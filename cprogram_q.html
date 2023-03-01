@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" type="image/x-icon" href="img/logo.jpg">
+        <title>C-PROGRAMMING</C-PROGRAMMING></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Aboreto:regular" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="preloader"></div>
+        <header>
+            <div class="header">
+                <a href="index.html" style="text-decoration: none;"><h4 style="text-align: center; color: white; padding-top: 15px;">COURSE<span style="color: rgba(0, 255, 0, 0.637);
+                    ">HUB</span></h4></a>
+            </div>
+        </header>
+        <download>
+            <div id="dwnld">
+                <div class="dl pt-4 pb-2 col-6" style="text-align: center; color: white; float: left;">
+                    <h4>Download our app</h4>
+                </div>
+                <div class="dr col-6 pt-4" style="float: left; text-align: center;">
+                    <div class="x col-4" style="float: left;">
+                        <a href="https://drive.google.com/file/d/1KBVX-x0dVIAsXq8uiaYPipWwT3AVmJI3/view?usp=share_link" class="btn btn-success">DOWNLOAD</a>
+                    </div>
+                    <div class="x col-2"style="float:right;">
+                        <button onclick="closef()" style="color: white; background-color: black;" id="x">x</button>
+                    </div>
+                </div>
+            </div>
+        </download>
+        <script>
+            function closef() {
+            var x = document.getElementById("dwnld");
+            x.style.display = 'none';
+    
+       }
+        </script>
+
+        <div class="welcome">
+            <img src="img/cprogram.jpg" width="100%" style="object-fit: cover; height: 100vh;">
+            <div class="text pt-3 pb-2">
+                <h1>QUESTION PAPERS</h1>
+            </div>
+        </div>
+        <!--Menu-->
+        <div class="home pt-3 pb-2">
+            <a href="index.html" class="btn yup btn-success mt-1 mb-1">HOME PAGE</a>
+            <a href="second.html" class="btn yup btn-success mt-1 mb-1">SECOND YEAR</a>
+            <a href="third.html" class="btn yup btn-success mt-1 mb-1">THIRD YEAR</a>
+            <a href="more.html" class="btn yup btn-success mt-1 mb-1">MORE</a>
+        </div>
+        <!--Menu ends-->
+
+        <!--wait time-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qN3wfuPYTI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen hidden></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qN3wfuPYTI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen hidden></iframe>
+       <!--Wait time ends-->
+
+
+
+        <section style="background-color: rgb(0, 0, 0)">
+        <div class="container pt-3 pb-3">
+            <h3 style="text-align: center; color: white;">Year Wise Question Papers</h3><br>
+            <div class="row pb-2">
+                <div class="qbox col-12 col-md-8">
+                    <div class="qb p-4" style="text-align: center;">
+                        <a href="doc/c-programming Q&A.pdf" style="text-decoration: none; color:black;"><h6>2023-23</h6></a>
+                        <h6>2021-22</h6>
+                        <h6>2020-21</h6>
+                        <h6>2019-20</h6>
+                        <h6>2018-19</h6>
+                    </div>
+
+                </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+
+        <!--FOoter-->
+        <div class="footera p-4">
+            <a href="index.html" style="text-decoration: none;"><h5 style="color: white; text-align: center;">© Coursehub</h5></a>
+        </div>
+        <!--footer ends-->
+        <script>
+            var loader = document.getElementById("preloader");
+    
+            window.addEventListener("load",function(){
+                loader.style.display = "none";
+            })
+        </script>
+
+    </body>
+</html>
